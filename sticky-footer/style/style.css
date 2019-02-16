@@ -1,0 +1,69 @@
+/* rgb(102,5,250) */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(102,5,250);
+}
+
+.container {
+  margin: 4vh;
+}
+
+header {
+  width: 94vw;
+  height: 10vh;
+  background-color: #ffffff;
+  border-bottom: 2px solid rgb(102,5,250);
+}
+
+header > span {
+  display: block;
+  float: left;  
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px); 
+  font-weight: bold;
+  color: rgb(102,5,250);
+  
+}
+
+.head-navigation {
+  display: flex;
+  float: right;
+  height: inherit;
+  margin-right: 40px;
+  color: rgb(102,5,250);
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (18 - 10) + 10px);  
+}
+
+.head-navigation div {
+  width: 8vw;
+  height: inherit;  
+  position: relative;  
+  text-align: center;
+}
+
+.head-navigation div span {
+  width: inherit;
+  line-height: 4.5em;  
+  text-align: center;
+  font-weight: bold;  
+  cursor: pointer;
+}
+
+.head-navigation div span:hover {
+  color: rgb(129, 93, 182);
+}
+
+
+main {
+  width: 94vw;
+  height: 80vh;
+  background-color: #ffffff;
+}
+
+footer {
+  /* position: fixed; */
+  width: 94vw;
+  height: 10vh;
+  background-color: #ffffff;
+  border-top: 2px solid rgb(102,5,250);  
+}
