@@ -5,13 +5,11 @@ body {
 }
 
 .wrapper {
-  display: flex;  
-  flex-direction: column;
+  display: flex;
   width: 98vw;
   height: 96vh;
   margin: 2vh;
   background-color: #ffffff;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
