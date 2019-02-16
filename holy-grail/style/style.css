@@ -13,5 +13,94 @@ body {
   height: 96vh;
   margin: 2vh;
   background-color: #ffffff;
-  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin-left: 40px;
+  line-height: 12vh;
+  font-weight: bold;
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 12) + 12px);
+}
+
+.head-navigation {
+  display: flex;
+  float: right;
+  margin-right: 40px;
+  line-height: 12vh;
+  font-weight: bold;
+}
+
+.head-navigation span:not(:last-child) {
+  margin-right: 20px;
+}
+
+.head-navigation span:hover {
+  color: rgb(248, 179, 76);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 82vh;
+  box-sizing: border-box;
+  border-top: 2px solid rgb(255,153,0);
+  border-bottom: 2px solid rgb(255,153,0);
+}
+
+main div:not(.main-text){
+  width: 20%;
+}
+
+.main-text {
+  width: 60%;
+  overflow: scroll;
+  box-sizing: border-box;
+  border-left: 2px solid rgb(255,153,0);
+  border-right: 2px solid rgb(255,153,0);
+  padding: 10vh;
+}
+.main-text span {
+  font-weight: bold;
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 12) + 12px);
+}
+
+.main-text p {
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (16 - 8) + 8px);
+}
+
+footer {
+  width: 100%;
+  height: 12vh;
+}
+
+.foot-navigation {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: inherit;
+  margin: 0 auto;
+}
+
+.foot-navigation span{
+  line-height: 12vh;
+  font-weight: bold;
+}
+
+.foot-navigation span:not(:last-child) {
+  margin-right: 20px;
+}
+
+.foot-navigation span:hover {
+  color: rgb(248, 179, 76);
+  cursor: pointer;
+  text-decoration: underline;
 }
