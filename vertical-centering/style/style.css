@@ -1,0 +1,27 @@
+/* calc( (100vw - 480px)/(1280 - 480) * (20 - 12) + 12px); */
+/* rgb(247,65,45) */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247,65,45);
+}
+
+div {
+  width: 40vh;
+  height: 40vh;
+}
+
+img {
+  display: block;
+  width: 30vh;
+  margin: 0 auto;
+}
+
+p {
+  font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
